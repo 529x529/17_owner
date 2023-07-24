@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selenide.*;
 public class GithubWebTests extends TestBase {
 
     @Test
-    void checkIssueNameTest() {
+    void checkSolutionNameTest() {
 
         open("https://github.com");
         $(".header-menu-wrapper").$(byText("Solutions")).click();
